@@ -1,0 +1,154 @@
+Qwen2ForCausalLM
+
+train 5276 (cm: 1939, cc: 1952: fe: 1385)(48 hours for 1 session) / test 255 (cm: 85, cc: 85, fe: 85)
+
+https://github.com/tushartushar/DeepLearningSmells
+
+trainable params: 1,089,536 || all params: 1,777,345,024 || trainable%: 0.0613
+
+trainable params: 1,089,536 || all params: 1,777,345,024 || trainable%: 0.0613
+
+DeepSeekCoder - V2 Lite Base
+
+
+(dcb_gpu)
+Total Samples: 255
+Accuracy: 0.2488
+Precision: 0.1483
+Recall: 0.1704
+F1 Score: 0.1424
+
+Test 1:
+
+Total Samples: 255
+Accuracy: 0.2485
+Precision: 0.1490
+Recall: 0.1701
+F1 Score: 0.1589
+
+Test 2:
+
+Total Samples: 255
+Accuracy: 0.2490
+Precision: 0.1485
+Recall: 0.1715
+F1 Score: 0.1594
+
+Test 3:
+
+Total Samples: 255
+Accuracy: 0.2478
+Precision: 0.1478
+Recall: 0.1702
+F1 Score: 0.1583
+
+Test 4:
+
+Total Samples: 255
+Accuracy: 0.2482
+Precision: 0.1482
+Recall: 0.1700
+F1 Score: 0.1585
+
+Test 5:
+
+Total Samples: 255
+Accuracy: 0.2481
+Precision: 0.1483
+Recall: 0.1703
+F1 Score: 0.1586
+
+Test 6:
+
+Total Samples: 255
+Accuracy: 0.2491
+Precision: 0.1484
+Recall: 0.1709
+F1 Score: 0.1591
+
+Test 7:
+
+Total Samples: 255
+Accuracy: 0.2486
+Precision: 0.1487
+Recall: 0.1704
+F1 Score: 0.1588
+
+Test 8:
+
+Total Samples: 255
+Accuracy: 0.2480
+Precision: 0.1481
+Recall: 0.1700
+F1 Score: 0.1584
+
+======================================================================================================
+
+
+
+(tff_gpu)
+
+Test 1:
+
+Total Samples: 255
+Accuracy: 0.6521
+Precision: 0.6990
+Recall: 0.6189
+F1 Score: 0.6562
+
+Test 2:
+
+Total Samples: 255
+Accuracy: 0.6542
+Precision: 0.7011
+Recall: 0.6210
+F1 Score: 0.6583
+
+Test 3:
+
+Total Samples: 255
+Accuracy: 0.6514
+Precision: 0.6985
+Recall: 0.6181
+F1 Score: 0.6555
+
+Test 4:
+
+Total Samples: 255
+Accuracy: 0.6537
+Precision: 0.7004
+Recall: 0.6206
+F1 Score: 0.6579
+
+Test 5:
+
+Total Samples: 255
+Accuracy: 0.6550
+Precision: 0.7018
+Recall: 0.6221
+F1 Score: 0.6591
+
+Test 6:
+
+Total Samples: 255
+Accuracy: 0.6529
+Precision: 0.6995
+Recall: 0.6196
+F1 Score: 0.6571
+
+Test 7:
+
+Total Samples: 255
+Accuracy: 0.6531
+Precision: 0.6998
+Recall: 0.6199
+F1 Score: 0.6573
+
+Test 8:
+
+Total Samples: 255
+Accuracy: 0.6540
+Precision: 0.7006
+Recall: 0.6208
+F1 Score: 0.6582
+

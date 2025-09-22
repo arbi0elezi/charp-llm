@@ -1,0 +1,118 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# Model files (usually large and generated)
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.h5
+*.ckpt
+checkpoint-*/
+
+# Specifically exclude large model directories
+models/dclb/
+models/qwen_7b_base/
+models/qwen_7b_finetuned/
+models/qwen_7b_finetuned_chunked/
+models/llama2_finetuned/
+models/llama2_finetuned_v2/
+models/balanced_model/
+models/starcoder2_finetuned/
+models/test_chunked/
+models/tff_rag/
+
+# Dataset caches
+*.cache
+*.faiss
+rag_index.faiss
+rag_index_test.faiss
+rag_corpus.json
+rag_corpus_test.json
+
+# Training outputs
+training_state.json
+training_status.json
+eval_log.txt
+evaluation_results/
+evaluation_results_max/
+output_eval/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+nul
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Package managers
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Documentation
+docs/_build/
+site/
+
+# Temporary files
+*.tmp
+tmp/
+temp/
+
+# System files
+Thumbs.db
+.directory
+
+# Config files with sensitive data (uncomment if needed)
+# config.json
+# secrets.json
